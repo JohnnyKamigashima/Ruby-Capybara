@@ -1,0 +1,10 @@
+## YAML Templates
+---
+
+dafault: -p pretty -p usuario -p sem_headless
+
+pretty: --format pretty
+for_ci: --format progress
+usuario: ENVIRONMENT_TYPE='usuario' 
+com_headless: HEADLESS='com_headless'
+sem_headless: HEADLESS='sem_headless'
